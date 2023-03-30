@@ -53,6 +53,11 @@ body {
   padding-bottom: 5px;
 }
 
+.button:hover {
+  background-color: teal;
+  color: white;
+}
+
 .player-card {
   border:thin green solid;
   width: 49%;
