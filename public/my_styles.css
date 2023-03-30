@@ -1,0 +1,38 @@
+* {
+  /border: thin red dashed;/
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  color: teal;
+  border: 1px teal solid;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.player-card {
+  border:thin green solid;
+  width: 49%;
+}
+
+.computer-card {
+  border: thin red solid;
+  width: 49%
+}
+
+.one-third {
+  width: 32%;
+}

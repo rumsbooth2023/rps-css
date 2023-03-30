@@ -5,34 +5,43 @@
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
+  <link rel="stylesheet" href="my_styles.css">
 </head>
 
 <body>
-  <div>
-    <a class="Button" href="/rock">
+<div class="row">
+  <div class="one-third">
+    <a class="button" href="/rock">
       Play Rock
     </a>
   </div>
 
-  <div>
-    <a class="Button" href="/paper">
+  <div class="one-third">
+    <a class="button" href="/paper">
       Play Paper
     </a>
   </div>
 
-  <div>
-    <a class="Button" href="/scissors">
+  <div class="one-third">
+    <a class="button" href="/scissors">
       Play Scissors
     </a>
   </div>
+</div>
 
-  <h2>
-    We played rock!
-  </h2>
+  <div class="row">
+    <div class="player-card">
+      <h2>
+        <em>We</em> <strong>played</strong> <a href="https://www.google.com"> rock</a>!
+      </h2>
+    </div>
 
-  <h2>
-    They played paper!
-  </h2>
+    <div class="computer-card">
+      <h2>
+        They played paper!
+      </h2>
+    </div>
+  </div>
 
   <h2>
     We lost!
